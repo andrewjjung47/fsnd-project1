@@ -6,11 +6,12 @@ import re
 main_page_head = '''
 <head>
     <meta charset="utf-8">
-    <title>Fresh Tomatoes!</title>
+    <title>Andrew's Movie Trailer!</title>
 
     <!-- Bootstrap 3 -->
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="style.css">
     <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
     <script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
     <style type="text/css" media="screen">
@@ -99,13 +100,25 @@ main_page_content = '''
         </div>
       </div>
     </div>
-    
+
     <!-- Main Page Content -->
     <div class="container">
       <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
           <div class="navbar-header">
-            <a class="navbar-brand" href="#">Fresh Tomatoes Movie Trailers</a>
+            <a class="navbar-brand" href="#">Andrew's Movie Trailer</a>
+          </div>
+          <div class="navbar">
+            <ul class="nav navbar-nav">
+              <li><a href="#">New this year</a></li>
+              <li><a href="#">Best rating</a></li>
+            </ul>
+            <form class="navbar-form navbar-right" role="Search">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Search by title">
+              </div>
+              <button type="submit" class="btn btn-default">Submit</button>
+            </form>
           </div>
         </div>
       </div>
