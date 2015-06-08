@@ -1,7 +1,7 @@
 # fsnd-project1
 
 This is the project 1, Movie Trailer Website, for Udacity's Fullstack Nanodegree. 
-The website will list my 6 favorite movies with the titles, poster images, and YouTube trailers.
+The website will list my 6 favorite movies with the titles, poster images, and YouTube trailers. OMDB and YouTube APIs are used to fetch poster images and trailer video urls.
 <img src="./img/preview1.jpg" alt="Website preview image" width="900" height="450">
 
 <h3>To obtain</h3>
